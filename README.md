@@ -1,3 +1,18 @@
+<!--
+npx json-server --watch db.json --static ./img --port 3001
+
+launches a product server 3001
+
+nav works but not populated
+
+remove fromcart removes unselectively
+
+todo"
+
+put the cart into an extra route, pimp up the navigation , make some landing paage, product detils, u know...
+
+-->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

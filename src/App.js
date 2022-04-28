@@ -1,11 +1,14 @@
 
 import { Outlet, Link } from "react-router-dom";
 
+
+
 function App() {
   return (
+   
     <div className="App">
       <div>
-      <h1>Bookkeeper!</h1>
+      <h1>React E-Shop!</h1>
       <nav
         style={{
           borderBottom: "solid 1px",
@@ -18,9 +21,11 @@ function App() {
         <Link to="/expenses">Expenses</Link> |{" "}
         <Link to="/cart">Cart</Link> |{" "}
         <Link to="/contact">Contact</Link>
+        <Link to="/addproduct">Add Product</Link>
       </nav>
       <Outlet />
     </div>
+    
     </div>
   );
 }
